@@ -1,0 +1,8 @@
+services:
+  archive:
+    container_name: template-archive-cont
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
